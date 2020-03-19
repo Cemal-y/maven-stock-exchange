@@ -2,9 +2,12 @@ package com.switchfully.maven.exchange.domain;
 
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
 
+@Repository
 public class StockRepository {
 
     private static HashMap<String, Stock> stockDatabase =
